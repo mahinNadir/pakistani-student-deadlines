@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pakistani Student Deadlines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <h1>Pakistani Student Deadlines Tracker</h1>
+        <p style="color:#555; text-align: center;">
+            Track important Pakistani academic deadlines in one place.
+        </p>
+
+        
+        <h2>Add Your Deadline</h2>
+        <form id="add-deadline-form">
+            <input type="text" id="deadline-title" placeholder="Deadline Title" required>
+            <input type="date" id="deadline-date" required>
+            <input type="text" id="deadline-category" placeholder="Category (optional)">
+            <button type="submit" style= "background-color:#02f4c4;">Add Deadline</button>
+        </form>
+
+        <div id="deadline-list">
+            <!-- Deadlines will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
